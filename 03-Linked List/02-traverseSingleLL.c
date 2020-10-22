@@ -12,7 +12,7 @@ struct node *temp;
 
 temp = head; //temp pointer, so that head isn't lost
 
-while(t != NULL){
+while(t != NULL){ //or while(t)
 printf("%d", temp->i);
 temp = temp -> link;
 }
