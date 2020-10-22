@@ -7,5 +7,6 @@ void squeeze(char s[], int c){ //c will have the ascii value of particular char
             s[j] = s[i];
             j++;
         }
+        s[j]= '\0';
     }
 }
