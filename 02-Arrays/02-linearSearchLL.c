@@ -1,5 +1,5 @@
 //linear search in linked list
-
+//node *head = address of the first node of the linkedlist 
 struct node *linearSearch_LinkedList(struct node *head, int target){
   if(head){
     while(head){
