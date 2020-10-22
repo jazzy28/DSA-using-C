@@ -18,3 +18,9 @@ int binarySearch(int arr[], int l_index, int r_index, int target){
     }
     return -1;
 }
+
+/* 
+time complexity; O(logn)
+
+problem gets reduced by half as only half of the array is being traversed.
+*/
